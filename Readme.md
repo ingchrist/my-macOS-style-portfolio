@@ -1,4 +1,4 @@
-#  ingchrist | macOS Portfolio
+#  ingchrist | macOS Portfolio
 
 <div align="center">
 
@@ -8,9 +8,9 @@
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
 <h3>
-  <a href="https://jagan-portfolio-cyan.vercel.app/"> Launch Live System</a>
+  <a href="https://github.com/ingchrist/my-macOS-style-portfolio"> Launch Live System</a>
   <span> | </span>
-  <a href="https://github.com/JaganParida/MacOS-Portfolio/issues">🐛 Report Bug</a>
+  <a href="https://github.com/ingchrist/my-macOS-style-portfolio/issues">🐛 Report Bug</a>
 </h3>
 
 <p><i>"Designing the future, one pixel at a time."</i></p>
@@ -21,7 +21,7 @@
 
 ## ⚡️ Overview
 
-Welcome to **Jagan Parida's Portfolio**.
+Welcome to **ingchrist's Portfolio**.
 
 Instead of a traditional static resume, I built a **fully functional web-based operating system**. This project showcases my skills in **Full-Stack Development**, **UI/UX Design**, and **Complex State Management** by mimicking the macOS ecosystem right in the browser.
 
@@ -78,8 +78,8 @@ Want to see how I built this? Follow these steps to run my code locally.
 
 1. **Clone my repository**
    ```bash
-   git clone [https://github.com/JaganParida/MacOS-Portfolio.git](https://github.com/JaganParida/MacOS-Portfolio.git)
-   cd MacOS-Portfolio
+   git clone https://github.com/ingchrist/my-macOS-style-portfolio.git
+   cd my-macOS-style-portfolio
    ```
 
 2. **Install dependencies**
@@ -132,5 +132,5 @@ src/
 
 <div align="center">
   <p>If you enjoyed this project, please give it a ⭐️</p>
-  <p>Designed & Built with ❤️ by Jagan</p>
+  <p>Designed & Built with ❤️ by ingchrist</p>
 </div>
