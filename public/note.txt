@@ -1,0 +1,102 @@
+/**
+ * @file: profile.config.ts
+ * @author: Jagan Parida
+ * @summary: Full-Stack Developer & Open Source Contributor.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "Next.js",     // 95%
+    "React.js",    // 90%
+    "Angular",     // 80%
+    "GSAP",        // 85%
+    "TailwindCSS", // 90%
+  ],
+  backend: [
+    "Node.js",     // 85%
+    "Spring Boot", // 80%
+    "MongoDB",     // 85%
+    "Express.js",  // 85%
+  ],
+  problem_solving: ["Java", "DSA", "LeetCode"],
+  tools: ["Git", "Docker", "Figma", "Postman"]
+};
+
+// --------------------------------------------------
+// 2. EXPERIENCE LOG (Reverse Chronological)
+// --------------------------------------------------
+
+class ProfessionalHistory {
+  
+  /** * CURRENT FOCUS
+   * @period 2025 - 2026 
+   */
+  public async OpenSource_Contributions(): Promise<Impact> {
+    const roles = ["OSCG'26 Contributor", "SWOC S6 Contributor"];
+    
+    // Key Achievements
+    const activity = await github.getContributions(); // 750+ Contributions
+    const focus = "Contributing to global open-source ecosystems";
+    
+    return { roles, activity, focus };
+  }
+
+  /** * PREVIOUS INTERNSHIP
+   * @period Dec 2025
+   */
+  public OasisInfobyte_Internship(): void {
+    this.role = "Web Development & Design Intern";
+    this.focus = "Building responsive and interactive web interfaces";
+    
+    // Delivered high-quality frontend components
+    // Integrated modern design principles with core web tech
+  }
+}
+
+// --------------------------------------------------
+// 3. COMPETITIVE ACHIEVEMENTS
+// --------------------------------------------------
+
+interface Milestone {
+  status: string;
+  event: string;
+  project: string;
+}
+
+const trophyCabinet: Milestone[] = [
+  {
+    status: "Shortlisted",
+    event: "Google Cloud Gen AI Exchange Hackathon 2025",
+    project: "Personalized Career and Skills Advisor",
+  },
+  {
+    status: "In Progress",
+    event: "365-Day LeetCode Streak",
+    project: "800+ Problems Solved Goal",
+  }
+];
+
+// --------------------------------------------------
+// 4. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  ["Centurion University", "B.Tech Computer Science & Engineering ('2027)"]
+]);
+
+export default new ProfessionalHistory();
+```
+
+```bash
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ user --status
+> Status: Building Attendance Management Systems & Exploring GenAI
+> Location: Odisha, India
+> Loading Assets... [||||||||||] 100%
+> Ready.
+```
