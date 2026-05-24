@@ -1,4 +1,4 @@
-#  Jagan Parida | macOS Portfolio
+#  ingchrist | macOS Portfolio
 
 <div align="center">
 
