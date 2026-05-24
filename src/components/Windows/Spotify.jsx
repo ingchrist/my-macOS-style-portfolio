@@ -21,6 +21,7 @@ const Spotify = ({
     >
       <div className="spotify-window">
         <iframe
+          title="Spotify playlist"
           data-testid="embed-iframe"
           src="https://open.spotify.com/embed/playlist/1YTPE2Ek3xVXF0yML8svLA?utm_source=generator&theme=0"
           width="100%"
