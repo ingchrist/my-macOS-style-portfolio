@@ -11,12 +11,19 @@ const Note = ({
   activeWindow,
   setActiveWindow,
 }) => {
-  const [markdown, setMarkdown] = useState(null);
+  const [markdown, setMarkdown] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
+  const [loadError, setLoadError] = useState(null);
 
   useEffect(() => {
     fetch("/note.txt")
-      .then((res) => res.text())
-      .then((text) => setMarkdown(text));
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load note.txt");
+        return res.text();
+      })
+      .then((text) => setMarkdown(text))
+      .catch(() => setLoadError("Unable to load note"))
+      .finally(() => setIsLoading(false));
   }, []);
 
   return (
@@ -28,7 +35,7 @@ const Note = ({
       setActiveWindow={setActiveWindow}
     >
       <div className="note-window">
-        {markdown ? (
+        {!isLoading && !loadError ? (
           <SyntaxHighlighter
             language="typescript"
             style={atelierDuneDark}
@@ -41,9 +48,13 @@ const Note = ({
           >
             {markdown}
           </SyntaxHighlighter>
-        ) : (
+        ) : isLoading ? (
           <div className="loading-state">
             <p>Loading...</p>
+          </div>
+        ) : (
+          <div className="loading-state">
+            <p>{loadError}</p>
           </div>
         )}
       </div>
