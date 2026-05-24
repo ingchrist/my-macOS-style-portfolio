@@ -56,7 +56,7 @@ Instead of a traditional static resume, I built a **fully functional web-based o
 
 ## 🛠️ Technical Specifications
 
-- **Core Framework:** `React.js` (v18)
+- **Core Framework:** `React.js` (v19)
 - **Build Tool:** `Vite` (Lightning fast HMR)
 - **Styling:** `SCSS` (Custom modules, no UI libraries used for core layout)
 - **Icons:** `Lucide React`
@@ -80,6 +80,16 @@ Want to see how I built this? Follow these steps to run my code locally.
    ```bash
    git clone [https://github.com/JaganParida/MacOS-Portfolio.git](https://github.com/JaganParida/MacOS-Portfolio.git)
    cd MacOS-Portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
    ```
 
 Open your browser and visit:
