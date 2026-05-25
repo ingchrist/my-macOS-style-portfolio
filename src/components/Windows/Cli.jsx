@@ -14,7 +14,7 @@ const Cli = ({
     about: {
       description: "About me",
       usage: "about",
-      fn: () => `Hi, I'm Jagan Parida 👋
+      fn: () => `Hi, I'm Christian Djinguet 👋
 Full-Stack Developer and Computer Science Engineering student.
 
 I focus on building scalable web applications, contributing to open-source,
@@ -114,9 +114,9 @@ Open to: Learning, Open Source & Collaboration`,
     contact: {
       description: "Contact information",
       usage: "contact",
-      fn: () => `Email: jaganparida39064@gmail.com
-LinkedIn: linkedin.com/in/jagan-parida04
-GitHub: github.com/jaganparida`,
+      fn: () => `Email: jaganparida39064cdjinguet@gmail.com
+LinkedIn: linkedin.com/in/christiandjinguet//in/jagan-parida04
+GitHub: github.com/ingchrist`,
     },
 
     github: {
@@ -137,7 +137,7 @@ GitHub: github.com/jaganparida`,
 
   const welcomeMessage = `
 ╔══════════════════════════════════════════════╗
-║        Jagan Parida — CLI Portfolio          ║
+║        Christian Djinguet — CLI Portfolio          ║
 ╚══════════════════════════════════════════════╝
 
 Full-Stack Developer | Open Source Contributor
@@ -169,7 +169,7 @@ Ready to explore 🚀
         <Terminal
           commands={commands}
           welcomeMessage={welcomeMessage}
-          promptLabel={"jagan@portfolio:~$"}
+          promptLabel={"@ingchrist~$"}
           promptLabelStyle={{ color: "#00ff00" }}
           style={{ background: "transparent", minHeight: "100%" }}
           contentStyle={{ color: "#a8a8a8" }}

@@ -21,7 +21,7 @@ const Link = ({
     {
       id: 2,
       name: "LinkedIn",
-      url: "https://linkedin.com/in/jagan-parida04",
+      url: "https://linkedin.com/in/christiandjinguet//in/jagan-parida04",
       icon: <Linkedin size={20} />,
       color: "#0077b5",
     },
@@ -35,7 +35,7 @@ const Link = ({
     {
       id: 4,
       name: "Email Me",
-      url: "mailto:jaganparida39064@gmail.com",
+      url: "mailto:jaganparida39064cdjinguet@gmail.com",
       icon: <Mail size={20} />,
       color: "#EA4335",
     },
@@ -58,7 +58,7 @@ const Link = ({
       <div className="link-window">
         <div className="profile-header">
           <img src="./Jagan.jpg" alt="Profile" className="avatar" />
-          <h3>Jagan Parida</h3>
+          <h3>Christian Djinguet</h3>
           <p>Full-Stack Developer | Open Source</p>
         </div>
 

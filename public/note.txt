@@ -1,6 +1,6 @@
 /**
  * @file: profile.config.ts
- * @author: Jagan Parida
+ * @author: Christian Djinguet
  * @summary: Full-Stack Developer & Open Source Contributor.
  */
 
