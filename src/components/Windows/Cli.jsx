@@ -114,8 +114,8 @@ Open to: Learning, Open Source & Collaboration`,
     contact: {
       description: "Contact information",
       usage: "contact",
-      fn: () => `Email: jaganparida39064cdjinguet@gmail.com
-LinkedIn: linkedin.com/in/christiandjinguet//in/jagan-parida04
+      fn: () => `Email: cdjinguet@gmail.com
+LinkedIn: linkedin.com/in/christiandjinguet/,
 GitHub: github.com/ingchrist`,
     },
 

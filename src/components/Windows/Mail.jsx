@@ -16,7 +16,7 @@ const Mail = ({
   });
   const [sending, setSending] = useState(false);
 
-  const MY_EMAIL = "jaganparida39064cdjinguet@gmail.com";
+  const MY_EMAIL = "cdjinguet@gmail.com";
 
   // Validation
   const isInputValid =
