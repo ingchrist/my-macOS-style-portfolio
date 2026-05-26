@@ -21,7 +21,7 @@ const Link = ({
     {
       id: 2,
       name: "LinkedIn",
-      url: "https://linkedin.com/in/christiandjinguet//in/jagan-parida04",
+      url: "https://linkedin.com/in/christiandjinguet/",
       icon: <Linkedin size={20} />,
       color: "#0077b5",
     },
