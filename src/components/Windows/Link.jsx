@@ -57,7 +57,7 @@ const Link = ({
     >
       <div className="link-window">
         <div className="profile-header">
-          <img src="./Jagan.jpg" alt="Profile" className="avatar" />
+          <img src="./ingchrist.jpg" alt="Profile" className="avatar" />
           <h3>Christian Djinguet</h3>
           <p>Full-Stack Developer | Open Source</p>
         </div>
