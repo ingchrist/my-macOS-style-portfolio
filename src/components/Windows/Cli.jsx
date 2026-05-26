@@ -123,7 +123,7 @@ GitHub: github.com/ingchrist`,
       description: "Open GitHub profile",
       usage: "github",
       fn: () => {
-        window.open("https://github.com/jaganparida", "_blank");
+        window.open("https://github.com/ingchrist", "_blank");
         return "Opening GitHub profile...";
       },
     },
