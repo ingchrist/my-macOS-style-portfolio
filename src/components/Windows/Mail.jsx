@@ -16,7 +16,7 @@ const Mail = ({
   });
   const [sending, setSending] = useState(false);
 
-  const MY_EMAIL = "jaganparida39064@gmail.com";
+  const MY_EMAIL = "cdjinguet@gmail.com";
 
   // Validation
   const isInputValid =
@@ -106,7 +106,7 @@ const Mail = ({
               <div className="input-group">
                 <span className="label">To</span>
                 <div className="recipient-chip">
-                  <span>Jagan Parida</span>
+                  <span>Christian Djinguet</span>
                 </div>
               </div>
 

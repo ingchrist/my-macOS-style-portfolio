@@ -14,28 +14,28 @@ const Link = ({
     {
       id: 1,
       name: "GitHub",
-      url: "https://github.com/jaganparida",
+      url: "https://github.com/ingchrist",
       icon: <Github size={20} />,
       color: "#333",
     },
     {
       id: 2,
       name: "LinkedIn",
-      url: "https://linkedin.com/in/jagan-parida04",
+      url: "https://linkedin.com/in/christiandjinguet/",
       icon: <Linkedin size={20} />,
       color: "#0077b5",
     },
     {
       id: 3,
       name: "Portfolio Website",
-      url: "https://jaganparida.github.io/Portfolio/",
+      url: "https://ingchrist.github.io/my-macOS-style-portfolio/",
       icon: <Globe size={20} />,
       color: "#25D366",
     },
     {
       id: 4,
       name: "Email Me",
-      url: "mailto:jaganparida39064@gmail.com",
+      url: "mailto:cdjinguet@gmail.com",
       icon: <Mail size={20} />,
       color: "#EA4335",
     },
@@ -58,7 +58,7 @@ const Link = ({
       <div className="link-window">
         <div className="profile-header">
           <img src="./Jagan.jpg" alt="Profile" className="avatar" />
-          <h3>Jagan Parida</h3>
+          <h3>Christian Djinguet</h3>
           <p>Full-Stack Developer | Open Source</p>
         </div>
 
