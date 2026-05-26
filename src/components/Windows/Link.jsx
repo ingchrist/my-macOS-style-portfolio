@@ -28,7 +28,7 @@ const Link = ({
     {
       id: 3,
       name: "Portfolio Website",
-      url: "https://jaganparida.github.io/Portfolio/",
+      url: "https://ingchrist.github.io/my-macOS-style-portfolio/",
       icon: <Globe size={20} />,
       color: "#25D366",
     },
