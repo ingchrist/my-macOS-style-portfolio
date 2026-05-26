@@ -21,7 +21,7 @@ const Resume = ({
     >
       <div className="resume-window">
         <iframe
-          src="/Jagan_Parida_Resume.pdf#toolbar=0"
+          src="/Ingchrist-fullstackdev_Resume.pdf#toolbar=0"
           frameBorder="0"
           title="Resume PDF"
         ></iframe>
