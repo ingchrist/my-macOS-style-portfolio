@@ -115,7 +115,7 @@ Open to: Learning, Open Source & Collaboration`,
       description: "Contact information",
       usage: "contact",
       fn: () => `Email: cdjinguet@gmail.com
-LinkedIn: linkedin.com/in/christiandjinguet/,
+LinkedIn: linkedin.com/in/christiandjinguet
 GitHub: github.com/ingchrist`,
     },
 
