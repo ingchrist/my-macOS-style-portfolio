@@ -35,7 +35,7 @@ const Link = ({
     {
       id: 4,
       name: "Email Me",
-      url: "mailto:jaganparida39064cdjinguet@gmail.com",
+      url: "mailto:cdjinguet@gmail.com",
       icon: <Mail size={20} />,
       color: "#EA4335",
     },
