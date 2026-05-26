@@ -14,7 +14,7 @@ const Link = ({
     {
       id: 1,
       name: "GitHub",
-      url: "https://github.com/jaganparida",
+      url: "https://github.com/ingchrist",
       icon: <Github size={20} />,
       color: "#333",
     },
