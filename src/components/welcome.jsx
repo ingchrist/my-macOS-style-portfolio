@@ -19,7 +19,7 @@ const renderText = (text, classNames, baseWeight = 400) =>
     <span
       key={i}
       className={classNames}
-      style={{ fontVariationSettings: `'wgt' ${baseWeight}` }}
+      style={{ fontVariationSettings: `"wght" ${baseWeight}` }}
     >
       {char === " " ? "\u00A0" : char}
     </span>
@@ -41,7 +41,7 @@ const setupTextHover = (container, type) => {
     gsap.to(letter, {
       duration,
       ease: "power2.out",
-      fontVariationSettings: `'wgt' ${weight}`,
+      fontVariationSettings: `"wght" ${Math.round(weight)}`,
     });
   };
 
@@ -53,7 +53,7 @@ const setupTextHover = (container, type) => {
       const { left: L, width: W } = letter.getBoundingClientRect();
       const distance = Math.abs(mouseX - (L - left + W / 2));
       const intensity = Math.exp(-Math.pow(distance, 2) / 20000);
-      animateLetter(letter, min + (max - min) * intensity);
+      animateLetter(letter, Math.round(min + (max - min) * intensity));
     });
   };
 
