@@ -1,4 +1,4 @@
-import Nav from './Nav';
+import Navbar from './Navbar'; 
 import Welcome from './welcome';
 
-export { Nav, Welcome };
+export { Navbar, Welcome };

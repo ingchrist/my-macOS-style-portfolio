@@ -1,5 +1,5 @@
 import React from "react";
-import "./nav.scss";
+import "./navbar.scss";
 import DateTime from "./DateTime";
 import { BatteryMedium, Search, Wifi } from "lucide-react";
 

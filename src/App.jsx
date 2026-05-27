@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./app.scss";
 import Dock from "./components/Dock";
-import { Nav, Welcome } from "#components";
+import { Navbar, Welcome } from "#components";
 import Github from "./components/Windows/Github";
 import Note from "./components/Windows/Note";
 import Resume from "./components/Windows/Resume";
@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <main>
-      <Nav />
+      <Navbar />
       <Welcome />
       <MobileWarning />
       <Dock
