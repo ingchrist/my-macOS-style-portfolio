@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./app.scss";
 import Dock from "./components/Dock";
 import { Navbar, Welcome } from "#components";
-import Github from "./components/Windows/Github";
 import Note from "./components/Windows/Note";
 import Resume from "./components/Windows/Resume";
 import Spotify from "./components/Windows/Spotify";
@@ -14,7 +13,6 @@ import MobileWarning from "./components/MobileWarning";
 
 const App = () => {
   const [windowState, setwindowState] = useState({
-    github: false,
     note: false,
     resume: false,
     spotify: false,
@@ -37,15 +35,6 @@ const App = () => {
         setActiveWindow={setActiveWindow}
       />
 
-      {windowState.github && (
-        <Github
-          windowName="github"
-          windowState={windowState}
-          setwindowState={setwindowState}
-          activeWindow={activeWindow}
-          setActiveWindow={setActiveWindow}
-        />
-      )}
       {windowState.note && (
         <Note
           windowName="note"
