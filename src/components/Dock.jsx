@@ -24,13 +24,6 @@ const Dock = ({ windowState, setwindowState, setActiveWindow }) => {
         style={{ display: "flex", gap: "0.75rem" }}
       >
         <div
-          className={`icon github ${windowState.github ? "is-open" : ""} ${bouncing === "github" ? "bounce" : ""}`}
-          onMouseDown={() => openWindow("github")}
-        >
-          <img src="/doc-icons/github.svg" alt="Github" />
-        </div>
-
-        <div
           className={`icon note ${windowState.note ? "is-open" : ""} ${bouncing === "note" ? "bounce" : ""}`}
           onMouseDown={() => openWindow("note")}
         >
